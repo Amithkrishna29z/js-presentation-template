@@ -1,0 +1,54 @@
+.chart-slide {
+    background-color: #CADCFC; 
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin:-20px 0 0 0;
+    text-align: center;
+    width: 900px;
+    height: 545px;
+
+   
+}
+
+.chart-slide h2 {
+    font-family: 'Arial', sans-serif;
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.chart-slide p {
+    font-family: 'Georgia', serif;
+    font-size: 1.2rem;
+    color: #555;
+    line-height: 1.6;
+}
+
+.dark-mode {
+    background-color: #504545;
+    color: #fff;
+    font-size: 18px;
+}
+
+.dark-mode h2 {
+    color: white;
+}
+
+.dark-mode p {
+    color: white;
+}
+
+.chart-slide.dark-mode {
+    background-color: #555;
+}
+
+
+.chart-slide.dark-mode h2 {
+    color: #fff;
+  }
+  
+  .chart-slide.dark-mode .chart-container canvas {
+    background-color: #333; 
+  }
+  

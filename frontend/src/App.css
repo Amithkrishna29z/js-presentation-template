@@ -1,0 +1,127 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.dark-mode {
+  background-color: #333;
+  color: #fff;
+}
+
+.dark-mode .form-container {
+  background-color: #444;
+}
+
+.dark-mode .image-upload {
+  background-color: #555;
+}
+
+
+.dark-mode-btn {
+margin: 10px 0 10px 1300px;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+.dark-mode-btn:hover {
+  background-color: #0056b3;
+}
+
+.App {
+  font-family: Arial, sans-serif;
+  padding: 0;
+  margin: 0;
+  background-color: #2F3C7E;
+  padding-bottom: 25px;
+  height: 90%;
+   
+}
+
+/* .App a {
+color: white;
+margin: 20px 5px;
+} */
+
+.App h2 {
+  margin-bottom: 20px;
+  }
+
+
+
+
+.dark-mode {
+  background-color: #333;
+  color: #fff;
+}
+
+.dark-mode .slide {
+  background-color: #444;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+
+
+.slide-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+  height: 80vh;
+  width: 100%;
+  /* background-color: #007bff; */
+  transition: opacity 1s ease-in-out;
+}
+
+.slide-content {
+  max-width: 80%;
+  text-align: center;
+}
+
+.nav-buttons {
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-buttons button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.nav-buttons button:disabled {
+  background-color: #aaa;
+}
+
+.go-to-form, .go-to-presentation{
+  color: white;
+}
+
+.full-window {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full viewport height */
+  width: 100vw; /* Full viewport width */
+  margin: 0; /* Remove any default margin */
+  padding: 0; /* Remove any default padding */
+  background-color: #2F3C7E; /* You can set this to whatever background color you prefer */
+}
+.dark-mode .full-window{
+  background-color: #333;
+}

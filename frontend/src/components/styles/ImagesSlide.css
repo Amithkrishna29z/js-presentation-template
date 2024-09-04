@@ -1,0 +1,102 @@
+
+
+
+.images-slide { 
+   background-color: #CADCFC; 
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin:-20px 0 0 0;
+    text-align: center;
+    width: 900px;
+    height: 545px;
+
+}
+
+.images-slide h2 {
+    font-family: 'Arial', sans-serif;
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.images-slide img {
+    max-width: 100%;
+    height: 410px;
+   margin-top: -5px;
+  
+  
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+}
+
+
+
+
+.dark-mode {
+    color: #fff;
+    font-size: 18px;
+   
+  }
+  
+  
+  .dark-mode h2 {
+    color: white;
+  }
+
+  .dark-mode p {
+    color: white;
+  } 
+  .images-slide.dark-mode{
+    background-color: #555;
+  }
+
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.navigation button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.navigation button:hover {
+    background-color: #555;
+}
+
+.dark-mode {
+    background-color: #222;
+    color: #fff;
+}
+
+.dark-mode .navigation button {
+    background-color: #666;
+}
+
+.dark-mode .navigation button:hover {
+    background-color: #888;
+}
+
+
+
+.slider .image-adjust{
+    width: 729px;
+    height: 410px;
+} 
+
+.navigation button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+.dark-mode .navigation button:disabled {
+    background-color: #444;
+}

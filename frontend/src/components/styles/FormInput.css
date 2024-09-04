@@ -1,0 +1,124 @@
+.form-container {
+    max-width: 850px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #CADCFC;
+}
+
+.App h1 {
+    text-align: center;
+  
+}
+
+.form-container h2 {
+    margin-top: -75px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-container label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.form-container textarea,
+.form-container input[type="text"] 
+{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+
+
+
+.chart-input-field {
+    height: 37px;
+    width: 21%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+} 
+
+
+
+
+.form-container button {
+    
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.form-container button:hover {
+    background-color: #0056b3;
+}
+
+.form-container .link {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    color: #007bff;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 19px;
+}
+
+.form-container .link:hover {
+    text-decoration: underline;
+}
+
+.submission-message {
+    text-align: center;
+    color: green;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.preview-image {
+    max-width: 100px;
+    max-height: 100px;
+    margin-top: 10px;
+    display: block;
+}
+
+.image-add-btn {
+    margin: 10px 0;
+}
+
+.chart-add-btn {
+    margin: 5px 0;
+}
+
+
+
+.image-upload .file-upload{
+    padding: 3px;
+}
+
+
+.dark-mode {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .dark-mode .form-container {
+    background-color: #444;
+  }
+  
+  .dark-mode .image-upload {
+    background-color: #555;
+  }
+  

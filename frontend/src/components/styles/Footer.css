@@ -1,0 +1,40 @@
+
+
+.footer {
+    background-color: #2F3C7E; 
+    color: #fff; 
+    padding: 20px;
+    text-align: center;
+    font-size: 18px;
+    bottom: 0;
+    width: 100%; 
+  }
+  
+  .footer a {
+    color: #4CAF50; 
+    text-decoration: none; 
+    margin: 0 5px; 
+    
+  }
+  
+  .footer a:hover {
+    text-decoration: underline;
+  }
+  
+
+  
+  .footer.dark-mode {
+    background-color: #333;
+    color: #fff;
+    font-size: 18px;
+   
+  }
+  
+  
+  .footer.dark-mode h2 {
+    color: white;
+  }
+
+  .footer.dark-mode p {
+    color: white;
+  } 
